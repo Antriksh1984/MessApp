@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Spinner for Hostels -->
+    <Spinner
+        android:id="@+id/spinnerHostel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- TextView for Menu (Updated text size) -->
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerHostel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Choose a hostel to see the menu"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp" />
+
+    <!-- Button to confirm meal choice -->
+    <Button
+        android:id="@+id/mealChoiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="20dp"
+        android:text="Do you want to have a meal?"
+        android:textColor="#455A64"
+        android:textSize="40dp" />
+
+    <!-- Button to refresh votes -->
+    <Button
+        android:id="@+id/refreshVotesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mealChoiceButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_light"
+        android:padding="12dp"
+        android:text="Refresh Votes"
+        android:textColor="#0D47A1"
+        android:textSize="18sp" />
+</RelativeLayout>
