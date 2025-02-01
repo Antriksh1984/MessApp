@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">yourdomain.com</domain> <!-- Replace with your domain -->
+        <domain includeSubdomains="true">3.110.196.233</domain>
     </domain-config>
 </network-security-config>

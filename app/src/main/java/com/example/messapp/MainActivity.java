@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private final List<String> hostelZMenu = Arrays.asList("Choose an option");
 
     // Backend URL (replace with your EC2 public IP)
-    private static final String BACKEND_URL = "http://65.1.3.71:8080/votes";
+    private static final String     BACKEND_URL = "http://3.110.196.233:8080/votes";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

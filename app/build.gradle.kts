@@ -55,9 +55,11 @@ dependencies {
     // Networking dependencies (for API communication)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
 
     // JSON parsing (if required separately from Retrofit)
     implementation("com.google.code.gson:gson:2.10.1")
+    implementation(libs.tools.core)
 
     // Testing dependencies
     testImplementation(libs.junit)
